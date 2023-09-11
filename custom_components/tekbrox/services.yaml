@@ -3,7 +3,7 @@ configure_passage_mode:
   description: Tries to configure passage mode for a lock (or set of locks)
   target:
     entity:
-      integration: tekbrox
+      integration: ttlock
       domain: lock
   fields:
     enabled:
