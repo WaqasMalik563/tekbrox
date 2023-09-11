@@ -1,0 +1,20 @@
+{
+  "domain": "tekbrox",
+  "name": "Brafalocks",
+  "after_dependencies": ["cloud"],
+  "codeowners": ["@WaqasMalik563"],
+  "config_flow": true,
+  "dependencies": [
+    "application_credentials",
+    "persistent_notification",
+    "webhook"
+  ],
+  "documentation": "https://github.com/WaqasMalik563/tekbrox",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/WaqasMalik563/tekbrox/issues",
+  "requirements": ["pydantic"],
+  "ssdp": [],
+  "version": "v0.0.0",
+  "zeroconf": []
+}

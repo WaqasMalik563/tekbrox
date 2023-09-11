@@ -1,0 +1,9 @@
+pytest-homeassistant-custom-component
+# cloud component
+hass_nabucasa
+webrtcvad
+hassil
+home-assistant-intents
+mutagen
+aiohttp_cors # http component
+dateparser # tests
