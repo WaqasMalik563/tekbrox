@@ -174,7 +174,7 @@ class TTLockApi:
     async def unlock(self, lock_id: int) -> bool:
         """Try to unlock the lock."""
         async with GW_LOCK:
-            res = await self.get("unlock", lockId=lock_id)
+            res = await self.get("unlock2", lockId=lock_id)
 
         if "errcode" in res and res["errcode"] != 0:
             _LOGGER.error("Failed to unlock %s: %s", lock_id, res["errmsg"])
